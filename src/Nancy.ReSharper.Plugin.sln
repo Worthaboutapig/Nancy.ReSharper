@@ -1,13 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.ReSharper.Plugin.8.1", "Nancy.ReSharper.Plugin\Nancy.ReSharper.Plugin.8.1.csproj", "{B2A37F44-9C56-4818-962A-C95F8812A1C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.ReSharper.Plugin.8.2", "Nancy.ReSharper.Plugin\Nancy.ReSharper.Plugin.8.2.csproj", "{9627E744-777A-4734-AAE8-0A84864AC788}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Nancy.ReSharper.Plugin", "Shared\Nancy.ReSharper.Plugin\Nancy.ReSharper.Plugin.shproj", "{85A11BAA-2AB2-4782-9896-93A925494CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.ReSharper.Plugin.9.0", "Nancy.ReSharper.Plugin\Nancy.ReSharper.Plugin.9\Nancy.ReSharper.Plugin.9.0.csproj", "{89A39271-36F8-4E68-9B1B-0D865A3DFD3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{99731300-8D33-4237-9B1E-67050A924831}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -28,6 +35,10 @@ Global
 		{9627E744-777A-4734-AAE8-0A84864AC788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9627E744-777A-4734-AAE8-0A84864AC788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9627E744-777A-4734-AAE8-0A84864AC788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A39271-36F8-4E68-9B1B-0D865A3DFD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A39271-36F8-4E68-9B1B-0D865A3DFD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A39271-36F8-4E68-9B1B-0D865A3DFD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A39271-36F8-4E68-9B1B-0D865A3DFD3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
